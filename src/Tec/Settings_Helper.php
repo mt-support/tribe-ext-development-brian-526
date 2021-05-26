@@ -1,5 +1,5 @@
 <?php
-namespace Tribe\Extensions\__TRIBE_NAMESPACE__;
+namespace Tribe\Extensions\Developmentbrian526;
 
 use Tribe__Main;
 
