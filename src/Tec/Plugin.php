@@ -1,6 +1,8 @@
 <?php
 namespace Tribe\Extensions\Developmentbrian526;
 
+use TEC\Common\Contracts\Service_Provider;
+
 /**
  * Class Plugin
  *
@@ -8,7 +10,7 @@ namespace Tribe\Extensions\Developmentbrian526;
  *
  * @package Tribe\Extensions\Developmentbrian526
  */
-class Plugin extends \tad_DI52_ServiceProvider {
+class Plugin extends Service_Provider {
 	/**
 	 * Stores the version for the plugin.
 	 *

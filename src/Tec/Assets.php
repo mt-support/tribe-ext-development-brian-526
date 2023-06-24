@@ -14,6 +14,8 @@
  */
 namespace Tribe\Extensions\Developmentbrian526;
 
+use TEC\Common\Contracts\Service_Provider;
+
 /**
  * Register Assets.
  *
@@ -21,7 +23,7 @@ namespace Tribe\Extensions\Developmentbrian526;
  *
  * @package Tribe\Extensions\Developmentbrian526
  */
-class Assets extends \tad_DI52_ServiceProvider {
+class Assets extends Service_Provider {
 	/**
 	 * Binds and sets up implementations.
 	 *
